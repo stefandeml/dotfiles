@@ -1,5 +1,6 @@
 call plug#begin('~/.local/share/nvim/plugged')
 let mapleader=","
+
 nnoremap d "_d
 vnoremap d "_d
 nnoremap D "_D
@@ -17,6 +18,8 @@ noremap gs <C-w>vgf
 noremap gi <C-w>f
 
 "imap <Tab> <C-X><C-F>
+nnoremap <leader>p :History<CR>
+nnoremap <leader>b :Buffers<CR>
 
 """autocomple
 imap <s-Tab> <C-X><C-F> 
@@ -40,9 +43,19 @@ Plug 'vim-airline/vim-airline'
 
   set laststatus=2
   set statusline=%F
+  set ruler
+set rulerformat=%30(%=\:b%n%y%m%r%w\ %l,%c%V\ %P%))
+set previewheight=6  " small preview window for docstrings, etc.
+
   set wildmenu
   set showcmd
   set lazyredraw
+  set showmatch        " show matching brackets
+set relativenumber   " relative numbers !!! wow
+
+set ignorecase
+set smartindent
+set autoindent
 
 Plug 'gasparch/tagbar'
 Plug 'scrooloose/nerdtree'
@@ -100,9 +113,6 @@ set background=dark
 let g:gruvbox_contrast_dark ='hard'
 colorscheme gruvbox
 set tabstop=2
-set softtabstop=2
-set expandtab
-set shiftwidth=2
 " Check file change every 4 seconds ('CursorHold') and reload the buffer upon detecting change
 set autoread
 au CursorHold * checktime
@@ -111,7 +121,7 @@ au CursorHold * checktime
 set hidden
 set number
 
-set clipboard+=unnamedplus
+set clipboard=unnamed
 
 let g:rustfmt_autosave = 1
 
@@ -180,4 +190,23 @@ let g:ale_fixers = {
   \    'tagbar': { 'position': 'right', 'size': 10, 'filetype': 'tagbar', 'order': 1 },
   \ }
 
-  
+function! NumberToggle()
+    if(&relativenumber == 1)
+        call AbsNumber()
+    else
+        call RelNumber()
+    endif
+endfunc
+
+function! RelNumber()
+    set nonumber
+    set relativenumber
+endfunc
+
+function! AbsNumber()
+    set norelativenumber
+    set number
+  endfunc
+
+  nnoremap               <Leader>n            :call NumberToggle()<CR>
+
