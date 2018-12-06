@@ -4,6 +4,13 @@ let mapleader=","
 nnoremap d "_d
 vnoremap d "_d
 nnoremap D "_D
+nmap <C-W>n <plug>TilerNew
+nmap <C-W>c <plug>TilerClose
+nmap <C-W>. <plug>TilerRotateForwards
+nmap <C-W>, <plug>TilerRotateBackwards
+
+nmap <C-w><space> <Plug>TilerZoom
+nmap <C-w>f <Plug>TilerFocus
 
 inoremap jj <Esc>
 nmap <C-p> :Files<cr>
@@ -18,8 +25,6 @@ noremap gs <C-w>vgf
 noremap gi <C-w>f
 
 "imap <Tab> <C-X><C-F>
-nnoremap <leader>p :History<CR>
-nnoremap <leader>b :Buffers<CR>
 
 """autocomple
 imap <s-Tab> <C-X><C-F> 
@@ -181,12 +186,12 @@ let g:ale_fixers = {
   nnoremap _ <C-w>3-
   nnoremap <C-\> :term<CR><C-w>N:call tiler#reorder()<cr>i
   map <C-@> <plug>TilerNew
-  let g:tiler#master#size = 20
+  let g:tiler#master#size = 50
   let g:tiler#master#count = 1
-  let g:tiler#layout = 'bottom'
+  let g:tiler#layout = 'right'
   let g:tiler#popup#windows = {
   \    'fzf': { 'position': 'bottom', 'size': 10, 'filetype': 'fzf', 'order': 3 },
-  \    'nerdtree': { 'position': 'left', 'size': 10, 'filetype': 'nerdtree', 'order': 2 },
+  \    'nerdtree': { 'position': 'left', 'size': 8, 'filetype': 'nerdtree', 'order': 2 },
   \    'tagbar': { 'position': 'right', 'size': 10, 'filetype': 'tagbar', 'order': 1 },
   \ }
 
