@@ -1,6 +1,9 @@
 call plug#begin('~/.local/share/nvim/plugged')
 let mapleader=","
 
+nnoremap gc :call NERDComment(0,"toggle")<CR>
+vnoremap gc :call NERDComment(0,"toggle")<CR>
+
 nnoremap d "_d
 vnoremap d "_d
 nnoremap D "_D
@@ -212,6 +215,5 @@ function! AbsNumber()
     set norelativenumber
     set number
   endfunc
-
   nnoremap               <Leader>n            :call NumberToggle()<CR>
 
