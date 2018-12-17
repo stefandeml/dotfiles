@@ -73,6 +73,8 @@ Plug 'matze/vim-move'                                                " Move line
 let g:move_key_modifier = 'C-S'
 Plug 'zhamlin/tiler.vim'                                             " Window manager
 
+Plug 'tomasiser/vim-code-dark'
+let g:airline_theme = 'codedark'
 
 Plug 'w0rp/ale'
 Plug 'prettier/vim-prettier', {
@@ -119,7 +121,9 @@ call plug#end()
 syntax on
 set background=dark
 let g:gruvbox_contrast_dark ='hard'
-colorscheme gruvbox
+"colorscheme gruvbox
+colorscheme codedark
+
 set tabstop=2
 " Check file change every 4 seconds ('CursorHold') and reload the buffer upon detecting change
 set autoread
