@@ -19,7 +19,6 @@ inoremap jj <Esc>
 nmap <C-p> :Files<cr>
 
 map <C-n> :NERDTreeMirrorToggle<CR>
-Plug '/usr/local/opt/fzf'
 nnoremap <tab> :tabnext<CR>
 nnoremap <s-tab> :tabprev<CR>
 nnoremap <C-t> :tabnew<CR>
@@ -89,6 +88,8 @@ Plug 'plasticboy/vim-markdown'
 Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 Plug '/usr/local/opt/fzf'
 Plug 'junegunn/fzf.vim'
+"Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
+"Plug 'junegunn/fzf.vim'
 
 if has('nvim')
   Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
