@@ -37,7 +37,7 @@ Plug 'justinmk/vim-sneak'
 let g:sneak#label = 1
 
 Plug 'vim-airline/vim-airline'
-
+Plug 'skywind3000/vim-preview'
 """ Appearance
 
   syntax on
@@ -149,6 +149,7 @@ let g:LanguageClient_serverCommands = {
     \ }
 
 nnoremap <silent> gd :call LanguageClient#textDocument_definition()<CR>
+nnoremap <silent> gD: call LanguageClient#textDocument_definition({'gotoCmd':'PreviewFile'})<CR>
 nnoremap <Leader>r :call LanguageClient#textDocument_rename()<CR>
 nnoremap <Leader>f :call LanguageClient#textDocument_formatting()<CR>
 nnoremap <Leader>H :call LanguageClient#textDocument_hover()<CR>
@@ -187,7 +188,8 @@ let g:ale_fixers = {
 \   'javascript': ['prettier', 'eslint'],
 \   'typescript': ['prettier', 'tslint'],
 \}
-
+set enc=utf-8
+set guifont=Powerline_Consolas:h11
   " Tiler
   tmap <C-q> <C-w>N
   nnoremap + <C-w>3+
@@ -221,4 +223,6 @@ function! AbsNumber()
     set number
   endfunc
   nnoremap               <Leader>n            :call NumberToggle()<CR>
-
+  nnoremap               <Leader>M            :set mouse=""<CR>
+  nnoremap               <Leader>m            :set mouse=a<CR>
+  nnoremap               <Leader>N            :set nonumber<CR>
