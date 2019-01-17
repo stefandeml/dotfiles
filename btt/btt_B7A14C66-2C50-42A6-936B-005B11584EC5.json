@@ -1,0 +1,611 @@
+{
+  "BTTPresetName" : "btt_B7A14C66-2C50-42A6-936B-005B11584EC5",
+  "BTTPresetUUID" : "6E086E55-C48A-4E0C-85FB-B0BEFDD5E040",
+  "BTTPresetContent" : [
+    {
+      "BTTAppBundleIdentifier" : "com.apple.Safari",
+      "BTTAppName" : "Safari",
+      "BTTAppSpecificSettings" : {
+
+      },
+      "BTTTriggers" : [
+        {
+          "BTTTriggerType" : 4,
+          "BTTTriggerTypeDescription" : "2 Finger Tap",
+          "BTTTriggerClass" : "BTTTriggerTypeMagicMouse",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "55,123",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 2,
+          "BTTIconData" : "",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTTriggerType" : 17,
+          "BTTTriggerTypeDescription" : "TipTap Right (1 Finger Fix)",
+          "BTTTriggerClass" : "BTTTriggerTypeMagicMouse",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "56,55,124",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 1,
+          "BTTIconData" : "",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTTriggerType" : 114,
+          "BTTTriggerTypeDescription" : "TipTap Right (1 Finger Fix)",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "56,55,124",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 1,
+          "BTTIconData" : "",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTTriggerType" : 113,
+          "BTTTriggerTypeDescription" : "TipTap Left (1 Finger Fix)",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "56,55,123",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 0,
+          "BTTIconData" : "",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTTriggerType" : -1,
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 2,
+          "BTTIconData" : "",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTTriggerType" : 16,
+          "BTTTriggerTypeDescription" : "TipTap Left (1 Finger Fix)",
+          "BTTTriggerClass" : "BTTTriggerTypeMagicMouse",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "56,55,123",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 0,
+          "BTTIconData" : "",
+          "BTTAlternateIconData" : ""
+        }
+      ]
+    },
+    {
+      "BTTAppBundleIdentifier" : "com.apple.finder",
+      "BTTAppName" : "Finder",
+      "BTTAppSpecificSettings" : {
+
+      },
+      "BTTTriggers" : [
+        {
+          "BTTTriggerType" : -1,
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 3,
+          "BTTIconData" : "",
+          "BTTAlternateIconData" : ""
+        }
+      ]
+    },
+    {
+      "BTTAppBundleIdentifier" : "org.mozilla.firefox",
+      "BTTAppName" : "Firefox",
+      "BTTAppSpecificSettings" : {
+
+      },
+      "BTTTriggers" : [
+        {
+          "BTTTriggerType" : 17,
+          "BTTTriggerTypeDescription" : "TipTap Right (1 Finger Fix)",
+          "BTTTriggerClass" : "BTTTriggerTypeMagicMouse",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "58,55,124",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 17,
+          "BTTIconData" : "",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTTriggerType" : 4,
+          "BTTTriggerTypeDescription" : "2 Finger Tap",
+          "BTTTriggerClass" : "BTTTriggerTypeMagicMouse",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "55,33",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 23,
+          "BTTIconData" : "",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTTriggerType" : 9,
+          "BTTTriggerTypeDescription" : "3 Finger Tap",
+          "BTTTriggerClass" : "BTTTriggerTypeMagicMouse",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "55,17",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 11,
+          "BTTIconData" : "",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTTriggerType" : 100,
+          "BTTTriggerTypeDescription" : "3 Finger Swipe Left",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "55,33",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 7,
+          "BTTIconData" : "",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTTriggerType" : 104,
+          "BTTTriggerTypeDescription" : "3 Finger Tap",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : 1,
+          "BTTPredefinedActionName" : "Middle Click",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 12,
+          "BTTIconData" : "",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTTriggerType" : 16,
+          "BTTTriggerTypeDescription" : "TipTap Left (1 Finger Fix)",
+          "BTTTriggerClass" : "BTTTriggerTypeMagicMouse",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "58,55,123",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 16,
+          "BTTIconData" : "",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTTriggerType" : 113,
+          "BTTTriggerTypeDescription" : "TipTap Left (1 Finger Fix)",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "58,55,123",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 14,
+          "BTTIconData" : "",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTTriggerType" : 116,
+          "BTTTriggerTypeDescription" : "Pinch Out",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "55,13",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 2,
+          "BTTIconData" : "",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTTriggerType" : 101,
+          "BTTTriggerTypeDescription" : "3 Finger Swipe Right",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "55,30",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 9,
+          "BTTIconData" : "",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTTriggerType" : 114,
+          "BTTTriggerTypeDescription" : "TipTap Right (1 Finger Fix)",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "58,55,124",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 19,
+          "BTTIconData" : "",
+          "BTTAlternateIconData" : ""
+        }
+      ]
+    },
+    {
+      "BTTAppBundleIdentifier" : "com.panic.Coda",
+      "BTTAppName" : "Coda",
+      "BTTAppSpecificSettings" : {
+
+      },
+      "BTTTriggers" : [
+        {
+          "BTTTriggerType" : -1,
+          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTEnabled" : 1,
+          "BTTShortcutKeyCode" : -1,
+          "BTTShortcutModifierKeys" : 10354688,
+          "BTTOrder" : 0,
+          "BTTIconData" : "",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTTriggerType" : 100,
+          "BTTTriggerTypeDescription" : "3 Finger Swipe Left",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "56,55,33",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 6,
+          "BTTIconData" : "",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTTriggerType" : 101,
+          "BTTTriggerTypeDescription" : "3 Finger Swipe Right",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "56,55,30",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 8,
+          "BTTIconData" : "",
+          "BTTAlternateIconData" : ""
+        }
+      ]
+    },
+    {
+      "BTTAppBundleIdentifier" : "com.google.Chrome",
+      "BTTAppName" : "Google Chrome",
+      "BTTAppSpecificSettings" : {
+
+      },
+      "BTTTriggers" : [
+        {
+          "BTTTriggerType" : 114,
+          "BTTTriggerTypeDescription" : "TipTap Right (1 Finger Fix)",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "58,55,124",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 2,
+          "BTTIconData" : "",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTTriggerType" : 113,
+          "BTTTriggerTypeDescription" : "TipTap Left (1 Finger Fix)",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "58,55,123",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 1,
+          "BTTIconData" : "",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTTriggerType" : 102,
+          "BTTTriggerTypeDescription" : "3 Finger Swipe Up",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : 62,
+          "BTTPredefinedActionName" : "Home (Beginning of the Page)",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 0,
+          "BTTIconData" : "",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTTriggerType" : 16,
+          "BTTTriggerTypeDescription" : "TipTap Left (1 Finger Fix)",
+          "BTTTriggerClass" : "BTTTriggerTypeMagicMouse",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "58,55,123",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 1,
+          "BTTIconData" : "",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTRemoteTriggerName" : "TV",
+          "BTTTriggerType" : -1,
+          "BTTTriggerClass" : "BTTTriggerTypeBTTRemote",
+          "BTTPredefinedActionType" : 124,
+          "BTTPredefinedActionName" : "Trigger Menubar Menu-Item",
+          "BTTMenubarPath" : "Chrome;Services;openTV",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 0,
+          "BTTIconData" : "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAKQWlDQ1BJQ0MgUHJvZmlsZQAASA2dlndUU9kWh8+9N73QEiIgJfQaegkg0jtIFQRRiUmAUAKGhCZ2RAVGFBEpVmRUwAFHhyJjRRQLg4Ji1wnyEFDGwVFEReXdjGsJ7601896a\/cdZ39nnt9fZZ+9917oAUPyCBMJ0WAGANKFYFO7rwVwSE8vE9wIYEAEOWAHA4WZmBEf4RALU\/L09mZmoSMaz9u4ugGS72yy\/UCZz1v9\/kSI3QyQGAApF1TY8fiYX5QKUU7PFGTL\/BMr0lSkyhjEyFqEJoqwi48SvbPan5iu7yZiXJuShGlnOGbw0noy7UN6aJeGjjAShXJgl4GejfAdlvVRJmgDl9yjT0\/icTAAwFJlfzOcmoWyJMkUUGe6J8gIACJTEObxyDov5OWieAHimZ+SKBIlJYqYR15hp5ejIZvrxs1P5YjErlMNN4Yh4TM\/0tAyOMBeAr2+WRQElWW2ZaJHtrRzt7VnW5mj5v9nfHn5T\/T3IevtV8Sbsz55BjJ5Z32zsrC+9FgD2JFqbHbO+lVUAtG0GQOXhrE\/vIADyBQC03pzzHoZsXpLE4gwnC4vs7GxzAZ9rLivoN\/ufgm\/Kv4Y595nL7vtWO6YXP4EjSRUzZUXlpqemS0TMzAwOl89k\/fcQ\/+PAOWnNycMsnJ\/AF\/GF6FVR6JQJhIlou4U8gViQLmQKhH\/V4X8YNicHGX6daxRodV8AfYU5ULhJB8hvPQBDIwMkbj96An3rWxAxCsi+vGitka9zjzJ6\/uf6Hwtcim7hTEEiU+b2DI9kciWiLBmj34RswQISkAd0oAo0gS4wAixgDRyAM3AD3iAAhIBIEAOWAy5IAmlABLJBPtgACkEx2AF2g2pwANSBetAEToI2cAZcBFfADXALDIBHQAqGwUswAd6BaQiC8BAVokGqkBakD5lC1hAbWgh5Q0FQOBQDxUOJkBCSQPnQJqgYKoOqoUNQPfQjdBq6CF2D+qAH0CA0Bv0BfYQRmALTYQ3YALaA2bA7HAhHwsvgRHgVnAcXwNvhSrgWPg63whfhG\/AALIVfwpMIQMgIA9FGWAgb8URCkFgkAREha5EipAKpRZqQDqQbuY1IkXHkAwaHoWGYGBbGGeOHWYzhYlZh1mJKMNWYY5hWTBfmNmYQM4H5gqVi1bGmWCesP3YJNhGbjS3EVmCPYFuwl7ED2GHsOxwOx8AZ4hxwfrgYXDJuNa4Etw\/XjLuA68MN4SbxeLwq3hTvgg\/Bc\/BifCG+Cn8cfx7fjx\/GvyeQCVoEa4IPIZYgJGwkVBAaCOcI\/YQRwjRRgahPdCKGEHnEXGIpsY7YQbxJHCZOkxRJhiQXUiQpmbSBVElqIl0mPSa9IZPJOmRHchhZQF5PriSfIF8lD5I\/UJQoJhRPShxFQtlOOUq5QHlAeUOlUg2obtRYqpi6nVpPvUR9Sn0vR5Mzl\/OX48mtk6uRa5Xrl3slT5TXl3eXXy6fJ18hf0r+pvy4AlHBQMFTgaOwVqFG4bTCPYVJRZqilWKIYppiiWKD4jXFUSW8koGStxJPqUDpsNIlpSEaQtOledK4tE20Otpl2jAdRzek+9OT6cX0H+i99AllJWVb5SjlHOUa5bPKUgbCMGD4M1IZpYyTjLuMj\/M05rnP48\/bNq9pXv+8KZX5Km4qfJUilWaVAZWPqkxVb9UU1Z2qbapP1DBqJmphatlq+9Uuq43Pp893ns+dXzT\/5PyH6rC6iXq4+mr1w+o96pMamhq+GhkaVRqXNMY1GZpumsma5ZrnNMe0aFoLtQRa5VrntV4wlZnuzFRmJbOLOaGtru2nLdE+pN2rPa1jqLNYZ6NOs84TXZIuWzdBt1y3U3dCT0svWC9fr1HvoT5Rn62fpL9Hv1t\/ysDQINpgi0GbwaihiqG\/YZ5ho+FjI6qRq9Eqo1qjO8Y4Y7ZxivE+41smsImdSZJJjclNU9jU3lRgus+0zwxr5mgmNKs1u8eisNxZWaxG1qA5wzzIfKN5m\/krCz2LWIudFt0WXyztLFMt6ywfWSlZBVhttOqw+sPaxJprXWN9x4Zq42Ozzqbd5rWtqS3fdr\/tfTuaXbDdFrtOu8\/2DvYi+yb7MQc9h3iHvQ732HR2KLuEfdUR6+jhuM7xjOMHJ3snsdNJp9+dWc4pzg3OowsMF\/AX1C0YctFx4bgccpEuZC6MX3hwodRV25XjWuv6zE3Xjed2xG3E3dg92f24+ysPSw+RR4vHlKeT5xrPC16Il69XkVevt5L3Yu9q76c+Oj6JPo0+E752vqt9L\/hh\/QL9dvrd89fw5\/rX+08EOASsCegKpARGBFYHPgsyCRIFdQTDwQHBu4IfL9JfJFzUFgJC\/EN2hTwJNQxdFfpzGC4sNKwm7Hm4VXh+eHcELWJFREPEu0iPyNLIR4uNFksWd0bJR8VF1UdNRXtFl0VLl1gsWbPkRoxajCCmPRYfGxV7JHZyqffS3UuH4+ziCuPuLjNclrPs2nK15anLz66QX8FZcSoeGx8d3xD\/iRPCqeVMrvRfuXflBNeTu4f7kufGK+eN8V34ZfyRBJeEsoTRRJfEXYljSa5JFUnjAk9BteB1sl\/ygeSplJCUoykzqdGpzWmEtPi000IlYYqwK10zPSe9L8M0ozBDuspp1e5VE6JA0ZFMKHNZZruYjv5M9UiMJJslg1kLs2qy3mdHZZ\/KUcwR5vTkmuRuyx3J88n7fjVmNXd1Z752\/ob8wTXuaw6thdauXNu5Tnddwbrh9b7rj20gbUjZ8MtGy41lG99uit7UUaBRsL5gaLPv5sZCuUJR4b0tzlsObMVsFWzt3WazrWrblyJe0fViy+KK4k8l3JLr31l9V\/ndzPaE7b2l9qX7d+B2CHfc3em681iZYlle2dCu4F2t5czyovK3u1fsvlZhW3FgD2mPZI+0MqiyvUqvakfVp+qk6oEaj5rmvep7t+2d2sfb17\/fbX\/TAY0DxQc+HhQcvH\/I91BrrUFtxWHc4azDz+ui6rq\/Z39ff0TtSPGRz0eFR6XHwo911TvU1zeoN5Q2wo2SxrHjccdv\/eD1Q3sTq+lQM6O5+AQ4ITnx4sf4H++eDDzZeYp9qukn\/Z\/2ttBailqh1tzWibakNml7THvf6YDTnR3OHS0\/m\/989Iz2mZqzymdLz5HOFZybOZ93fvJCxoXxi4kXhzpXdD66tOTSna6wrt7LgZevXvG5cqnbvfv8VZerZ645XTt9nX297Yb9jdYeu56WX+x+aem172296XCz\/ZbjrY6+BX3n+l37L972un3ljv+dGwOLBvruLr57\/17cPel93v3RB6kPXj\/Mejj9aP1j7OOiJwpPKp6qP6391fjXZqm99Oyg12DPs4hnj4a4Qy\/\/lfmvT8MFz6nPK0a0RupHrUfPjPmM3Xqx9MXwy4yX0+OFvyn+tveV0auffnf7vWdiycTwa9HrmT9K3qi+OfrW9m3nZOjk03dp76anit6rvj\/2gf2h+2P0x5Hp7E\/4T5WfjT93fAn88ngmbWbm3\/eE8\/syOll+AAAE1UlEQVRoBdVZTUhUURR2xlEQXYyZtnBTGpWBUARtXLUzQmnwb1uL9rWOTLN9LQMX1iLCHxgRAltFQZCEJAhZ0s+s3FhqKAgzvjd93\/Wdx5t3n\/jem+k9vXC9f+fnO\/fcc+59Y6JYLFYFKUNDQyOgf2jxjE5OTnIcupQrLxlCs4Anq7MfQpRiccpw9n3JC2NAieBMJpMumQgwKIdX1IQxYFSY2dbU1Lx1joP0PXhLZPuRlQgaAyJ0YGDgbjKZfMIxZDyfmpq6LWt+2sHBwYlEInGLtKZp3puenn7qh89NE8YDSgYVEjgHBEKD1IKPP6QV8JQRFrzSHdYDghM7+RlgLnFsGEZmZmZmVta82v7+\/pvV1dVZrkH3Ejx32YvO71xoD4iCQqFwDUByHONITcAgZYysO1uukYZz5CGvcz1Mv2wDstnsFhRnAGgLnkijn\/XKLtZcljSkJY\/FGwa3zVO2AZSEY7CEQFRBDICnPbKLylZcIz1pycN+uaUiBhAEzz6zCfsAeolZhn0W9jnHPmkOixPS+S2h0+hBCgDWDmrQjFp06obF0Sk7aN16lQHMDMzp4mI30VEbMwGIJxN9fX12WjtqQA\/Dw7SNjd+\/TQ8jPorrxJ48LsfGawOJPeW1wDmcsXGctQ+4NX8dRFOJeRyDMwDShd2845YH\/XnUMdR51ARoukE7jGrjtjsu5hsg\/gsjulBPudYqOgQY3uAvIHQW9bVDeAG6O5ByfzrmPiHLvcL4G6q6ArR7AEzP9vb2NkBwFYILUVTqok7oHkdfFez4Yxd4NY8L8Ds6Y\/tUlhUysNp3qVTqCvr5KCt1YrPeCxYY80b67hbGzsucdoTAuApBNCDyAmBfYEggvRo13jEGBHH3Iy\/UjaOj9CJ5XEdnwQsEjOyW+QSCYp\/DmkFQdUJIpxBE2UL3MnQvWzpN9M9bZ96GAbxnQWcHseaBfD5v4AjF4gEcXwNeELBMMF\/x9abSKCcBnGn0Abp28tEMwKIB98VmAIFKAdhq1BGMWT2LZgDOF11X8KT+z5PUHVSFZgAEGKixeMDSbduAjWRQa0eInhEiTwPi8gCAcfOk0BsX8IsFLy4pCwjilxjYQWwHg1Ds7Owglkxe45FX6hYcaMfcGYhr7ptY80BdXR2DOJYYoG4xwHnbypy0XEO8qK88zQCeOxDGEgOWbsHpq9UMgHV0454v7goTUbfcA9Zt+9FLhbWmlrSbGLvQhJUTXowRzG0gkP9Yekxcqufw29EPp178vtReW1u7ijkVv5oHsIBvDCOWGEDs2TFAgAC6gpv4ETZVvT5hXDfmhgU82irNgLW1NbOxsTGWI7S5uWm2trYSl5QaPGv49rff\/7IgrWZAfX29CaZYDKBuAea31QzY3t42ISgWA6g7nU77xa7oNAMgwESUx2IAdQdCD2LNgIaGhuL6+rozmILKDE3f3Nxc8m3iR5BmAMDHdg9Qd0tLix\/cNo1mQFNT08VcLrdiU0TYaWtr6wiqTjMAGahncXFxGflXe+gFFR6EHq9Os729vScID2m1m5iTu7u7zXNzc7\/Zj6r09vaexGNuPag+z12mILy77wcVFpaeusKApz5PD4QFEgdfEu+MXByKK6GT2JP48lL\/16qEwKhlEHuS\/3DjfzqOkyeIlZiJ\/R9ee7wEs\/jhJQAAAABJRU5ErkJggg==",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTRemoteTriggerName" : "ESC",
+          "BTTTriggerType" : -1,
+          "BTTTriggerClass" : "BTTTriggerTypeBTTRemote",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "53",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 1,
+          "BTTIconData" : "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAKQWlDQ1BJQ0MgUHJvZmlsZQAASA2dlndUU9kWh8+9N73QEiIgJfQaegkg0jtIFQRRiUmAUAKGhCZ2RAVGFBEpVmRUwAFHhyJjRRQLg4Ji1wnyEFDGwVFEReXdjGsJ7601896a\/cdZ39nnt9fZZ+9917oAUPyCBMJ0WAGANKFYFO7rwVwSE8vE9wIYEAEOWAHA4WZmBEf4RALU\/L09mZmoSMaz9u4ugGS72yy\/UCZz1v9\/kSI3QyQGAApF1TY8fiYX5QKUU7PFGTL\/BMr0lSkyhjEyFqEJoqwi48SvbPan5iu7yZiXJuShGlnOGbw0noy7UN6aJeGjjAShXJgl4GejfAdlvVRJmgDl9yjT0\/icTAAwFJlfzOcmoWyJMkUUGe6J8gIACJTEObxyDov5OWieAHimZ+SKBIlJYqYR15hp5ejIZvrxs1P5YjErlMNN4Yh4TM\/0tAyOMBeAr2+WRQElWW2ZaJHtrRzt7VnW5mj5v9nfHn5T\/T3IevtV8Sbsz55BjJ5Z32zsrC+9FgD2JFqbHbO+lVUAtG0GQOXhrE\/vIADyBQC03pzzHoZsXpLE4gwnC4vs7GxzAZ9rLivoN\/ufgm\/Kv4Y595nL7vtWO6YXP4EjSRUzZUXlpqemS0TMzAwOl89k\/fcQ\/+PAOWnNycMsnJ\/AF\/GF6FVR6JQJhIlou4U8gViQLmQKhH\/V4X8YNicHGX6daxRodV8AfYU5ULhJB8hvPQBDIwMkbj96An3rWxAxCsi+vGitka9zjzJ6\/uf6Hwtcim7hTEEiU+b2DI9kciWiLBmj34RswQISkAd0oAo0gS4wAixgDRyAM3AD3iAAhIBIEAOWAy5IAmlABLJBPtgACkEx2AF2g2pwANSBetAEToI2cAZcBFfADXALDIBHQAqGwUswAd6BaQiC8BAVokGqkBakD5lC1hAbWgh5Q0FQOBQDxUOJkBCSQPnQJqgYKoOqoUNQPfQjdBq6CF2D+qAH0CA0Bv0BfYQRmALTYQ3YALaA2bA7HAhHwsvgRHgVnAcXwNvhSrgWPg63whfhG\/AALIVfwpMIQMgIA9FGWAgb8URCkFgkAREha5EipAKpRZqQDqQbuY1IkXHkAwaHoWGYGBbGGeOHWYzhYlZh1mJKMNWYY5hWTBfmNmYQM4H5gqVi1bGmWCesP3YJNhGbjS3EVmCPYFuwl7ED2GHsOxwOx8AZ4hxwfrgYXDJuNa4Etw\/XjLuA68MN4SbxeLwq3hTvgg\/Bc\/BifCG+Cn8cfx7fjx\/GvyeQCVoEa4IPIZYgJGwkVBAaCOcI\/YQRwjRRgahPdCKGEHnEXGIpsY7YQbxJHCZOkxRJhiQXUiQpmbSBVElqIl0mPSa9IZPJOmRHchhZQF5PriSfIF8lD5I\/UJQoJhRPShxFQtlOOUq5QHlAeUOlUg2obtRYqpi6nVpPvUR9Sn0vR5Mzl\/OX48mtk6uRa5Xrl3slT5TXl3eXXy6fJ18hf0r+pvy4AlHBQMFTgaOwVqFG4bTCPYVJRZqilWKIYppiiWKD4jXFUSW8koGStxJPqUDpsNIlpSEaQtOledK4tE20Otpl2jAdRzek+9OT6cX0H+i99AllJWVb5SjlHOUa5bPKUgbCMGD4M1IZpYyTjLuMj\/M05rnP48\/bNq9pXv+8KZX5Km4qfJUilWaVAZWPqkxVb9UU1Z2qbapP1DBqJmphatlq+9Uuq43Pp893ns+dXzT\/5PyH6rC6iXq4+mr1w+o96pMamhq+GhkaVRqXNMY1GZpumsma5ZrnNMe0aFoLtQRa5VrntV4wlZnuzFRmJbOLOaGtru2nLdE+pN2rPa1jqLNYZ6NOs84TXZIuWzdBt1y3U3dCT0svWC9fr1HvoT5Rn62fpL9Hv1t\/ysDQINpgi0GbwaihiqG\/YZ5ho+FjI6qRq9Eqo1qjO8Y4Y7ZxivE+41smsImdSZJJjclNU9jU3lRgus+0zwxr5mgmNKs1u8eisNxZWaxG1qA5wzzIfKN5m\/krCz2LWIudFt0WXyztLFMt6ywfWSlZBVhttOqw+sPaxJprXWN9x4Zq42Ozzqbd5rWtqS3fdr\/tfTuaXbDdFrtOu8\/2DvYi+yb7MQc9h3iHvQ732HR2KLuEfdUR6+jhuM7xjOMHJ3snsdNJp9+dWc4pzg3OowsMF\/AX1C0YctFx4bgccpEuZC6MX3hwodRV25XjWuv6zE3Xjed2xG3E3dg92f24+ysPSw+RR4vHlKeT5xrPC16Il69XkVevt5L3Yu9q76c+Oj6JPo0+E752vqt9L\/hh\/QL9dvrd89fw5\/rX+08EOASsCegKpARGBFYHPgsyCRIFdQTDwQHBu4IfL9JfJFzUFgJC\/EN2hTwJNQxdFfpzGC4sNKwm7Hm4VXh+eHcELWJFREPEu0iPyNLIR4uNFksWd0bJR8VF1UdNRXtFl0VLl1gsWbPkRoxajCCmPRYfGxV7JHZyqffS3UuH4+ziCuPuLjNclrPs2nK15anLz66QX8FZcSoeGx8d3xD\/iRPCqeVMrvRfuXflBNeTu4f7kufGK+eN8V34ZfyRBJeEsoTRRJfEXYljSa5JFUnjAk9BteB1sl\/ygeSplJCUoykzqdGpzWmEtPi000IlYYqwK10zPSe9L8M0ozBDuspp1e5VE6JA0ZFMKHNZZruYjv5M9UiMJJslg1kLs2qy3mdHZZ\/KUcwR5vTkmuRuyx3J88n7fjVmNXd1Z752\/ob8wTXuaw6thdauXNu5Tnddwbrh9b7rj20gbUjZ8MtGy41lG99uit7UUaBRsL5gaLPv5sZCuUJR4b0tzlsObMVsFWzt3WazrWrblyJe0fViy+KK4k8l3JLr31l9V\/ndzPaE7b2l9qX7d+B2CHfc3em681iZYlle2dCu4F2t5czyovK3u1fsvlZhW3FgD2mPZI+0MqiyvUqvakfVp+qk6oEaj5rmvep7t+2d2sfb17\/fbX\/TAY0DxQc+HhQcvH\/I91BrrUFtxWHc4azDz+ui6rq\/Z39ff0TtSPGRz0eFR6XHwo911TvU1zeoN5Q2wo2SxrHjccdv\/eD1Q3sTq+lQM6O5+AQ4ITnx4sf4H++eDDzZeYp9qukn\/Z\/2ttBailqh1tzWibakNml7THvf6YDTnR3OHS0\/m\/989Iz2mZqzymdLz5HOFZybOZ93fvJCxoXxi4kXhzpXdD66tOTSna6wrt7LgZevXvG5cqnbvfv8VZerZ645XTt9nX297Yb9jdYeu56WX+x+aem172296XCz\/ZbjrY6+BX3n+l37L972un3ljv+dGwOLBvruLr57\/17cPel93v3RB6kPXj\/Mejj9aP1j7OOiJwpPKp6qP6391fjXZqm99Oyg12DPs4hnj4a4Qy\/\/lfmvT8MFz6nPK0a0RupHrUfPjPmM3Xqx9MXwy4yX0+OFvyn+tveV0auffnf7vWdiycTwa9HrmT9K3qi+OfrW9m3nZOjk03dp76anit6rvj\/2gf2h+2P0x5Hp7E\/4T5WfjT93fAn88ngmbWbm3\/eE8\/syOll+AAAEhElEQVRoBdVabU7jMBDdBvG\/R8gR4AQNN2glPsQvyg2WE6x6gnKDsr8QH1J7A8IJdo+QI\/AfAfte1o5cd8Zx0qSApcrxeDzz3njsJE4HHx8fP7YtJycnWZIkGWyNYCsdDAapZBP9BeQF+p\/f39\/zh4eHXNJrIhu0JUDQAHIBZ2PUwyZOrS58v+B6hfp3WzKNCRjgvwA6s0C6qEEix2\/WlEg0gfPz8xTTPgfYcReAAzZWSMer29vbIqBTdUUROD4+HsPoom2qVN4iL5haCNbl4+Pjqm5IUqdwdnY239vbW+4KPPHQF33Sdx2+4Aycnp4y6tM6I7afeQz957e3t7+ouUCrgj6COkA9Ql9WddRcQP\/m\/v7+UlNTCcSCh4MCxmevr6+r5XK5BlpzOplMhvv7+1xL3AxSTc\/KQyREAmbqfloDUm2BIzo3Un+sDIGaQjeGyPXd3d2Vb3eDABcs889XdNuMCCJ+pUXcRJjrJuM46OfQn9Toz6E\/pb5WkJoTf2GvEeBWCaU\/MDTUjADMZV3UEdUnC97aIQmMO7JtqeZsYNxC6qMMNl4Q3EN3i13bhbjPbwuejnzwmoxytzAwDJArc6+JzdyLKnFFgHdYSLmwxBITeXFgQ2EdCZgbG6yl5YoA2P3SfAE8t7Ibrb9ruSGh+nOxlgTM800mAQH4ggtW6utTRp\/0LflgitpZKAlAwKdKrcy03UMb0IXc+Jxptixmm0Ji7jMCu0wdH6xJpcKXm3aJOTHpo22bagQUo32IRQyYgSGx4yEzyTSvyMOV1rcreQgDsSdIk5EEBvL8M3Lfx0IMxOLL2SZ2roGUDb9gip592We1A1jSBJ2pBAx3vFySf4aMj+eSX2K3u5DU37mMD3ltjALoizZupwTwDvDUlsSXIIBIHnRNopcZ0HYNRrFrEioBgGiVrwSJvXuC8eLCa0MihIX3gYJG\/cIXcF8W2+beDRJHXZHQsBA7Z6CQgKFTvMFJupKsAYng6yttB7AUvA+INyzIs213jEgSQT\/EQCxSkIg9Cd2wzNGHNDZaFkMiZCyEgdgTHqZiirQbhfqWFnLq94VIwHfdM5eIgZiJ3e5CK98p25ii1JzbSN2NZA6J3A4keO5Ytu3X5pQi9eWmXWIuj1XMc\/WTpAgnfKU8JACpvy8Zcx\/pwyOeVPKB9DmqZsCkUS4p0gAMzaW+PmX0qYHnzBEz\/dsU4lY10wDB0LSrVNJ8uHKTOlNX5l67WCsChpG4FjgYJBa7IGHAL1zA3vXKRp\/yikDZwJcRsFNzvW8SdeCJDa+Ra0c8a2ejJNHF4S7tNClmwTLnp6Fx0uHu2gxwsDn9vQ4ZoiPuEF2kFG2Y3WYa8om+a\/9kmvobM2CNwPCiLiLUxbQWqL7WBw4CY4kl8V+7JJOD9Nf4xGRBxXytsbo91OJXGdePmkKu0rf+zEoiXDz8MoJL9T7hEt7yuvQlLVjJbtQMuAPNWSo\/ymWufNtrbAZ8Ku7vrwY+QEPkAvLv9WcPnwjb5mk2QwRHaKaYnRT1RjFbbsGdii8j7iPBhnKk4B92b9+57h+ZNQAAAABJRU5ErkJggg==",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTTriggerType" : 17,
+          "BTTTriggerTypeDescription" : "TipTap Right (1 Finger Fix)",
+          "BTTTriggerClass" : "BTTTriggerTypeMagicMouse",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "58,55,124",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 0,
+          "BTTIconData" : "",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTTriggerType" : 104,
+          "BTTTriggerTypeDescription" : "3 Finger Tap",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "51",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 3,
+          "BTTIconData" : "",
+          "BTTAlternateIconData" : ""
+        }
+      ]
+    },
+    {
+      "BTTAppBundleIdentifier" : "BT.G",
+      "BTTAppName" : "Global",
+      "BTTAppSpecificSettings" : {
+
+      },
+      "BTTTriggers" : [
+        {
+          "BTTTriggerType" : -1,
+          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+          "BTTPredefinedActionType" : 93,
+          "BTTPredefinedActionName" : "Resize Window to Bottom Right Quarter \/ Corner",
+          "BTTEnabled" : 0,
+          "BTTShortcutKeyCode" : 124,
+          "BTTShortcutModifierKeys" : 9568256,
+          "BTTOrder" : 3,
+          "BTTIconData" : "",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTRemoteTriggerName" : "Sleep",
+          "BTTTriggerType" : -1,
+          "BTTTriggerClass" : "BTTTriggerTypeBTTRemote",
+          "BTTPredefinedActionType" : 14,
+          "BTTPredefinedActionName" : "Sleep Computer",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 1,
+          "BTTIconData" : "iVBORw0KGgoAAAANSUhEUgAAACgAAAAwCAYAAABjezibAAAKQWlDQ1BJQ0MgUHJvZmlsZQAASA2dlndUU9kWh8+9N73QEiIgJfQaegkg0jtIFQRRiUmAUAKGhCZ2RAVGFBEpVmRUwAFHhyJjRRQLg4Ji1wnyEFDGwVFEReXdjGsJ7601896a\/cdZ39nnt9fZZ+9917oAUPyCBMJ0WAGANKFYFO7rwVwSE8vE9wIYEAEOWAHA4WZmBEf4RALU\/L09mZmoSMaz9u4ugGS72yy\/UCZz1v9\/kSI3QyQGAApF1TY8fiYX5QKUU7PFGTL\/BMr0lSkyhjEyFqEJoqwi48SvbPan5iu7yZiXJuShGlnOGbw0noy7UN6aJeGjjAShXJgl4GejfAdlvVRJmgDl9yjT0\/icTAAwFJlfzOcmoWyJMkUUGe6J8gIACJTEObxyDov5OWieAHimZ+SKBIlJYqYR15hp5ejIZvrxs1P5YjErlMNN4Yh4TM\/0tAyOMBeAr2+WRQElWW2ZaJHtrRzt7VnW5mj5v9nfHn5T\/T3IevtV8Sbsz55BjJ5Z32zsrC+9FgD2JFqbHbO+lVUAtG0GQOXhrE\/vIADyBQC03pzzHoZsXpLE4gwnC4vs7GxzAZ9rLivoN\/ufgm\/Kv4Y595nL7vtWO6YXP4EjSRUzZUXlpqemS0TMzAwOl89k\/fcQ\/+PAOWnNycMsnJ\/AF\/GF6FVR6JQJhIlou4U8gViQLmQKhH\/V4X8YNicHGX6daxRodV8AfYU5ULhJB8hvPQBDIwMkbj96An3rWxAxCsi+vGitka9zjzJ6\/uf6Hwtcim7hTEEiU+b2DI9kciWiLBmj34RswQISkAd0oAo0gS4wAixgDRyAM3AD3iAAhIBIEAOWAy5IAmlABLJBPtgACkEx2AF2g2pwANSBetAEToI2cAZcBFfADXALDIBHQAqGwUswAd6BaQiC8BAVokGqkBakD5lC1hAbWgh5Q0FQOBQDxUOJkBCSQPnQJqgYKoOqoUNQPfQjdBq6CF2D+qAH0CA0Bv0BfYQRmALTYQ3YALaA2bA7HAhHwsvgRHgVnAcXwNvhSrgWPg63whfhG\/AALIVfwpMIQMgIA9FGWAgb8URCkFgkAREha5EipAKpRZqQDqQbuY1IkXHkAwaHoWGYGBbGGeOHWYzhYlZh1mJKMNWYY5hWTBfmNmYQM4H5gqVi1bGmWCesP3YJNhGbjS3EVmCPYFuwl7ED2GHsOxwOx8AZ4hxwfrgYXDJuNa4Etw\/XjLuA68MN4SbxeLwq3hTvgg\/Bc\/BifCG+Cn8cfx7fjx\/GvyeQCVoEa4IPIZYgJGwkVBAaCOcI\/YQRwjRRgahPdCKGEHnEXGIpsY7YQbxJHCZOkxRJhiQXUiQpmbSBVElqIl0mPSa9IZPJOmRHchhZQF5PriSfIF8lD5I\/UJQoJhRPShxFQtlOOUq5QHlAeUOlUg2obtRYqpi6nVpPvUR9Sn0vR5Mzl\/OX48mtk6uRa5Xrl3slT5TXl3eXXy6fJ18hf0r+pvy4AlHBQMFTgaOwVqFG4bTCPYVJRZqilWKIYppiiWKD4jXFUSW8koGStxJPqUDpsNIlpSEaQtOledK4tE20Otpl2jAdRzek+9OT6cX0H+i99AllJWVb5SjlHOUa5bPKUgbCMGD4M1IZpYyTjLuMj\/M05rnP48\/bNq9pXv+8KZX5Km4qfJUilWaVAZWPqkxVb9UU1Z2qbapP1DBqJmphatlq+9Uuq43Pp893ns+dXzT\/5PyH6rC6iXq4+mr1w+o96pMamhq+GhkaVRqXNMY1GZpumsma5ZrnNMe0aFoLtQRa5VrntV4wlZnuzFRmJbOLOaGtru2nLdE+pN2rPa1jqLNYZ6NOs84TXZIuWzdBt1y3U3dCT0svWC9fr1HvoT5Rn62fpL9Hv1t\/ysDQINpgi0GbwaihiqG\/YZ5ho+FjI6qRq9Eqo1qjO8Y4Y7ZxivE+41smsImdSZJJjclNU9jU3lRgus+0zwxr5mgmNKs1u8eisNxZWaxG1qA5wzzIfKN5m\/krCz2LWIudFt0WXyztLFMt6ywfWSlZBVhttOqw+sPaxJprXWN9x4Zq42Ozzqbd5rWtqS3fdr\/tfTuaXbDdFrtOu8\/2DvYi+yb7MQc9h3iHvQ732HR2KLuEfdUR6+jhuM7xjOMHJ3snsdNJp9+dWc4pzg3OowsMF\/AX1C0YctFx4bgccpEuZC6MX3hwodRV25XjWuv6zE3Xjed2xG3E3dg92f24+ysPSw+RR4vHlKeT5xrPC16Il69XkVevt5L3Yu9q76c+Oj6JPo0+E752vqt9L\/hh\/QL9dvrd89fw5\/rX+08EOASsCegKpARGBFYHPgsyCRIFdQTDwQHBu4IfL9JfJFzUFgJC\/EN2hTwJNQxdFfpzGC4sNKwm7Hm4VXh+eHcELWJFREPEu0iPyNLIR4uNFksWd0bJR8VF1UdNRXtFl0VLl1gsWbPkRoxajCCmPRYfGxV7JHZyqffS3UuH4+ziCuPuLjNclrPs2nK15anLz66QX8FZcSoeGx8d3xD\/iRPCqeVMrvRfuXflBNeTu4f7kufGK+eN8V34ZfyRBJeEsoTRRJfEXYljSa5JFUnjAk9BteB1sl\/ygeSplJCUoykzqdGpzWmEtPi000IlYYqwK10zPSe9L8M0ozBDuspp1e5VE6JA0ZFMKHNZZruYjv5M9UiMJJslg1kLs2qy3mdHZZ\/KUcwR5vTkmuRuyx3J88n7fjVmNXd1Z752\/ob8wTXuaw6thdauXNu5Tnddwbrh9b7rj20gbUjZ8MtGy41lG99uit7UUaBRsL5gaLPv5sZCuUJR4b0tzlsObMVsFWzt3WazrWrblyJe0fViy+KK4k8l3JLr31l9V\/ndzPaE7b2l9qX7d+B2CHfc3em681iZYlle2dCu4F2t5czyovK3u1fsvlZhW3FgD2mPZI+0MqiyvUqvakfVp+qk6oEaj5rmvep7t+2d2sfb17\/fbX\/TAY0DxQc+HhQcvH\/I91BrrUFtxWHc4azDz+ui6rq\/Z39ff0TtSPGRz0eFR6XHwo911TvU1zeoN5Q2wo2SxrHjccdv\/eD1Q3sTq+lQM6O5+AQ4ITnx4sf4H++eDDzZeYp9qukn\/Z\/2ttBailqh1tzWibakNml7THvf6YDTnR3OHS0\/m\/989Iz2mZqzymdLz5HOFZybOZ93fvJCxoXxi4kXhzpXdD66tOTSna6wrt7LgZevXvG5cqnbvfv8VZerZ645XTt9nX297Yb9jdYeu56WX+x+aem172296XCz\/ZbjrY6+BX3n+l37L972un3ljv+dGwOLBvruLr57\/17cPel93v3RB6kPXj\/Mejj9aP1j7OOiJwpPKp6qP6391fjXZqm99Oyg12DPs4hnj4a4Qy\/\/lfmvT8MFz6nPK0a0RupHrUfPjPmM3Xqx9MXwy4yX0+OFvyn+tveV0auffnf7vWdiycTwa9HrmT9K3qi+OfrW9m3nZOjk03dp76anit6rvj\/2gf2h+2P0x5Hp7E\/4T5WfjT93fAn88ngmbWbm3\/eE8\/syOll+AAACDklEQVRYCe2YQXKDMAxFcYfhHDlCT5Ns25OknCTdZZJT9Ag9At112WVXULkDHY\/1JWKMHBbNJsax9Z6FLTK4YRiq+LPf75+cc6e43\/KaPJ6v1+trzHiIO8bro9Bv2Q2ZTHDM3s7SBMWmO7bz7Pg3JkgD4EriiUbXjO2mPTjaH\/1KEuHt5XJ5QXMOh4PvZ1A0duojn47a7bQf6wyxKeaq32OCTuTlF9Y6agyrElYOhvbgyoi8cP+Cefmrqr9TnBvIav7mb3Edr5xq111PNdVUFzptPoNMkCr5e7iCkm3EZoIk9FVSKmIxNhLsokklLxmbCdKz8KOkUchCbCbY9z1LcxjEso3YTJAE7nZIEJvVwbquO1pJa5kpKbZnx7+xDJ7PZzYonmR1jdhM0Aq+NK4k+Lk0YMY8yISCVNG\/M0CLpkpMKIiO+yJqwiSJCQWpYBavhRITCtJqit9iiQkFm6aBGzbhjiUPlZhQMDm64QQoiAqmocNvaIkJBa1lUuJrgiX3ocgSBaXCmbL6W8dqLFFQKpy3QlPGaSxRUCqcKeBbx2os9n8wCPpI7aR3e8Hc1KZ\/cr2hSWIGaXDJf9YiSxNECyrep748KvUaJH7dEWZh8xlUBak+iXsjXGVOe46hChLYny7rj8qYE+ys7Si+ylAFqYCavwaZY6iC2iNorczOMVRBkjA\/JHOMOcG1ErU4zg+du6h5jqmstAAAAABJRU5ErkJggg==",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTTriggerType" : 10,
+          "BTTTriggerTypeDescription" : "3 Finger Swipe Left",
+          "BTTTriggerClass" : "BTTTriggerTypeMagicMouse",
+          "BTTPredefinedActionType" : 122,
+          "BTTPredefinedActionName" : "Show Notification Center",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 2,
+          "BTTIconData" : "",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+          "BTTPredefinedActionType" : 4,
+          "BTTPredefinedActionName" : "Right Click",
+          "BTTAdditionalConfiguration" : "262144",
+          "BTTEnabled" : 0,
+          "BTTShortcutKeyCode" : 49,
+          "BTTShortcutModifierKeys" : 262144,
+          "BTTOrder" : 0,
+          "BTTIconData" : "",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTTriggerType" : -1,
+          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+          "BTTPredefinedActionType" : 47,
+          "BTTPredefinedActionName" : "Move Window to Next Monitor",
+          "BTTEnabled" : 1,
+          "BTTShortcutKeyCode" : 125,
+          "BTTShortcutModifierKeys" : 9568256,
+          "BTTOrder" : 2,
+          "BTTIconData" : "",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTTriggerType" : 1002,
+          "BTTTriggerTypeDescription" : "Middle Mouse Button",
+          "BTTTriggerClass" : "BTTTriggerTypeNormalMouse",
+          "BTTPredefinedActionType" : 77,
+          "BTTPredefinedActionName" : "3F Swipe Left (Page Back)",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 0,
+          "BTTIconData" : "",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+          "BTTPredefinedActionType" : 108,
+          "BTTPredefinedActionName" : "Resize window to Left Third",
+          "BTTAdditionalConfiguration" : "8388608",
+          "BTTEnabled" : 1,
+          "BTTShortcutKeyCode" : 34,
+          "BTTShortcutModifierKeys" : 8388608,
+          "BTTOrder" : 4,
+          "BTTIconData" : "",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+          "BTTPredefinedActionType" : 110,
+          "BTTPredefinedActionName" : "Resize window to Right Third",
+          "BTTAdditionalConfiguration" : "8388608",
+          "BTTEnabled" : 1,
+          "BTTShortcutKeyCode" : 35,
+          "BTTShortcutModifierKeys" : 8388608,
+          "BTTOrder" : 6,
+          "BTTIconData" : "",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTTriggerType" : 8,
+          "BTTTriggerTypeDescription" : "2 Finger Swipe Down",
+          "BTTTriggerClass" : "BTTTriggerTypeMagicMouse",
+          "BTTPredefinedActionType" : 6,
+          "BTTPredefinedActionName" : "Application Expose",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 0,
+          "BTTIconData" : "",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTTriggerType" : -1,
+          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+          "BTTPredefinedActionType" : 151,
+          "BTTPredefinedActionName" : "Move Window One Space\/Desktop Left",
+          "BTTEnabled" : 1,
+          "BTTShortcutKeyCode" : 47,
+          "BTTShortcutModifierKeys" : 1179648,
+          "BTTOrder" : 7,
+          "BTTIconData" : "",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTRemoteTriggerName" : "Airplay",
+          "BTTTriggerType" : -1,
+          "BTTTriggerClass" : "BTTTriggerTypeBTTRemote",
+          "BTTPredefinedActionType" : 127,
+          "BTTPredefinedActionName" : "Enable Airplay Mirroring",
+          "BTTShortcutToSend" : "51",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 0,
+          "BTTIconData" : "iVBORw0KGgoAAAANSUhEUgAAADwAAAAmCAYAAACYsfiPAAAKQWlDQ1BJQ0MgUHJvZmlsZQAASA2dlndUU9kWh8+9N73QEiIgJfQaegkg0jtIFQRRiUmAUAKGhCZ2RAVGFBEpVmRUwAFHhyJjRRQLg4Ji1wnyEFDGwVFEReXdjGsJ7601896a\/cdZ39nnt9fZZ+9917oAUPyCBMJ0WAGANKFYFO7rwVwSE8vE9wIYEAEOWAHA4WZmBEf4RALU\/L09mZmoSMaz9u4ugGS72yy\/UCZz1v9\/kSI3QyQGAApF1TY8fiYX5QKUU7PFGTL\/BMr0lSkyhjEyFqEJoqwi48SvbPan5iu7yZiXJuShGlnOGbw0noy7UN6aJeGjjAShXJgl4GejfAdlvVRJmgDl9yjT0\/icTAAwFJlfzOcmoWyJMkUUGe6J8gIACJTEObxyDov5OWieAHimZ+SKBIlJYqYR15hp5ejIZvrxs1P5YjErlMNN4Yh4TM\/0tAyOMBeAr2+WRQElWW2ZaJHtrRzt7VnW5mj5v9nfHn5T\/T3IevtV8Sbsz55BjJ5Z32zsrC+9FgD2JFqbHbO+lVUAtG0GQOXhrE\/vIADyBQC03pzzHoZsXpLE4gwnC4vs7GxzAZ9rLivoN\/ufgm\/Kv4Y595nL7vtWO6YXP4EjSRUzZUXlpqemS0TMzAwOl89k\/fcQ\/+PAOWnNycMsnJ\/AF\/GF6FVR6JQJhIlou4U8gViQLmQKhH\/V4X8YNicHGX6daxRodV8AfYU5ULhJB8hvPQBDIwMkbj96An3rWxAxCsi+vGitka9zjzJ6\/uf6Hwtcim7hTEEiU+b2DI9kciWiLBmj34RswQISkAd0oAo0gS4wAixgDRyAM3AD3iAAhIBIEAOWAy5IAmlABLJBPtgACkEx2AF2g2pwANSBetAEToI2cAZcBFfADXALDIBHQAqGwUswAd6BaQiC8BAVokGqkBakD5lC1hAbWgh5Q0FQOBQDxUOJkBCSQPnQJqgYKoOqoUNQPfQjdBq6CF2D+qAH0CA0Bv0BfYQRmALTYQ3YALaA2bA7HAhHwsvgRHgVnAcXwNvhSrgWPg63whfhG\/AALIVfwpMIQMgIA9FGWAgb8URCkFgkAREha5EipAKpRZqQDqQbuY1IkXHkAwaHoWGYGBbGGeOHWYzhYlZh1mJKMNWYY5hWTBfmNmYQM4H5gqVi1bGmWCesP3YJNhGbjS3EVmCPYFuwl7ED2GHsOxwOx8AZ4hxwfrgYXDJuNa4Etw\/XjLuA68MN4SbxeLwq3hTvgg\/Bc\/BifCG+Cn8cfx7fjx\/GvyeQCVoEa4IPIZYgJGwkVBAaCOcI\/YQRwjRRgahPdCKGEHnEXGIpsY7YQbxJHCZOkxRJhiQXUiQpmbSBVElqIl0mPSa9IZPJOmRHchhZQF5PriSfIF8lD5I\/UJQoJhRPShxFQtlOOUq5QHlAeUOlUg2obtRYqpi6nVpPvUR9Sn0vR5Mzl\/OX48mtk6uRa5Xrl3slT5TXl3eXXy6fJ18hf0r+pvy4AlHBQMFTgaOwVqFG4bTCPYVJRZqilWKIYppiiWKD4jXFUSW8koGStxJPqUDpsNIlpSEaQtOledK4tE20Otpl2jAdRzek+9OT6cX0H+i99AllJWVb5SjlHOUa5bPKUgbCMGD4M1IZpYyTjLuMj\/M05rnP48\/bNq9pXv+8KZX5Km4qfJUilWaVAZWPqkxVb9UU1Z2qbapP1DBqJmphatlq+9Uuq43Pp893ns+dXzT\/5PyH6rC6iXq4+mr1w+o96pMamhq+GhkaVRqXNMY1GZpumsma5ZrnNMe0aFoLtQRa5VrntV4wlZnuzFRmJbOLOaGtru2nLdE+pN2rPa1jqLNYZ6NOs84TXZIuWzdBt1y3U3dCT0svWC9fr1HvoT5Rn62fpL9Hv1t\/ysDQINpgi0GbwaihiqG\/YZ5ho+FjI6qRq9Eqo1qjO8Y4Y7ZxivE+41smsImdSZJJjclNU9jU3lRgus+0zwxr5mgmNKs1u8eisNxZWaxG1qA5wzzIfKN5m\/krCz2LWIudFt0WXyztLFMt6ywfWSlZBVhttOqw+sPaxJprXWN9x4Zq42Ozzqbd5rWtqS3fdr\/tfTuaXbDdFrtOu8\/2DvYi+yb7MQc9h3iHvQ732HR2KLuEfdUR6+jhuM7xjOMHJ3snsdNJp9+dWc4pzg3OowsMF\/AX1C0YctFx4bgccpEuZC6MX3hwodRV25XjWuv6zE3Xjed2xG3E3dg92f24+ysPSw+RR4vHlKeT5xrPC16Il69XkVevt5L3Yu9q76c+Oj6JPo0+E752vqt9L\/hh\/QL9dvrd89fw5\/rX+08EOASsCegKpARGBFYHPgsyCRIFdQTDwQHBu4IfL9JfJFzUFgJC\/EN2hTwJNQxdFfpzGC4sNKwm7Hm4VXh+eHcELWJFREPEu0iPyNLIR4uNFksWd0bJR8VF1UdNRXtFl0VLl1gsWbPkRoxajCCmPRYfGxV7JHZyqffS3UuH4+ziCuPuLjNclrPs2nK15anLz66QX8FZcSoeGx8d3xD\/iRPCqeVMrvRfuXflBNeTu4f7kufGK+eN8V34ZfyRBJeEsoTRRJfEXYljSa5JFUnjAk9BteB1sl\/ygeSplJCUoykzqdGpzWmEtPi000IlYYqwK10zPSe9L8M0ozBDuspp1e5VE6JA0ZFMKHNZZruYjv5M9UiMJJslg1kLs2qy3mdHZZ\/KUcwR5vTkmuRuyx3J88n7fjVmNXd1Z752\/ob8wTXuaw6thdauXNu5Tnddwbrh9b7rj20gbUjZ8MtGy41lG99uit7UUaBRsL5gaLPv5sZCuUJR4b0tzlsObMVsFWzt3WazrWrblyJe0fViy+KK4k8l3JLr31l9V\/ndzPaE7b2l9qX7d+B2CHfc3em681iZYlle2dCu4F2t5czyovK3u1fsvlZhW3FgD2mPZI+0MqiyvUqvakfVp+qk6oEaj5rmvep7t+2d2sfb17\/fbX\/TAY0DxQc+HhQcvH\/I91BrrUFtxWHc4azDz+ui6rq\/Z39ff0TtSPGRz0eFR6XHwo911TvU1zeoN5Q2wo2SxrHjccdv\/eD1Q3sTq+lQM6O5+AQ4ITnx4sf4H++eDDzZeYp9qukn\/Z\/2ttBailqh1tzWibakNml7THvf6YDTnR3OHS0\/m\/989Iz2mZqzymdLz5HOFZybOZ93fvJCxoXxi4kXhzpXdD66tOTSna6wrt7LgZevXvG5cqnbvfv8VZerZ645XTt9nX297Yb9jdYeu56WX+x+aem172296XCz\/ZbjrY6+BX3n+l37L972un3ljv+dGwOLBvruLr57\/17cPel93v3RB6kPXj\/Mejj9aP1j7OOiJwpPKp6qP6391fjXZqm99Oyg12DPs4hnj4a4Qy\/\/lfmvT8MFz6nPK0a0RupHrUfPjPmM3Xqx9MXwy4yX0+OFvyn+tveV0auffnf7vWdiycTwa9HrmT9K3qi+OfrW9m3nZOjk03dp76anit6rvj\/2gf2h+2P0x5Hp7E\/4T5WfjT93fAn88ngmbWbm3\/eE8\/syOll+AAAC1UlEQVRoBeWZ223bMBSGLVm+AO5DRvAIHaAPHSGCL08t0BGaCYJO0G7Qhz4Yhg0kI3SEjBCgQNun1rasWLJu+X\/BLGQrsCWFkSmVAEFLlEh+\/M85pEwtiqLGcDi81HX9s6Zp\/UYNExjvwzC8ms\/nt9pgMLhsNps3NeRMIQVBYBpUljWYhTvMwifOQurJCt\/YWe81rPd1bMXj8TgiD+lbrdad7\/v9CvM1ABYxI3kQ0Nlutz\/a7fYbYcW6gKOyVYUlIDUD5AblH5Q\/AfgLAv7t9XqvklZrCOCqlTsVQ8BtAWe7rrvpdrvBKY7KAcMPQ1hiDInyQUCiPMUa11cCeOeXPtS0EWts+KTH0UPZTJDJh5QGppoAdAFsoXTgk2ERSOWBAegD8AGKWoAsrGYSVPxWRmFhtijXCEBr4ZtioLLKswMLUChqAWpNs80agIpMwtmACYpEc6V\/2gQtApD3ndKBBSgC0go7IRtBKHpuIMoDXRrwISivywQVk\/LiwKqAvjgwQZF95CVNl9fnUFSAilK6wgIUAWmFvIavKgEqHViAcnkBpMVgJDpRqZSiMGB9mO0KYPE6qhLg4VieCxwA1iJsWevoIUDe66LAAQMR8pJbQBWCUVbwXMD8esE36AaqLsQnWtaOVHkuEzADEoKRi6hLUEeVwRcZx0lgqOoBeInG421gkU5UeucYcByQoGwckKrkp8cmOAWc9FPDMLy6gIpJ2AOG6bqe5y06nQ7\/7qxl2gMG4W\/AKrlDkjX7\/\/6IZ4OqbgdlwbIdLXnUggD1HRuJC5kdnLstx3EWEPItcnxgaGBtvYfv9hGsrjm4yWRSy8M0ssWs\/9txqc6DJpiySXrOQh0T2chIVv51WArjaDT6dqyj2Wz2\/li9rLrDZUlWu6l2ECPepW7u3ygFWLrCiPpfEQQ\/7LMUvvoynU6vCr\/9xIt76\/AT9blumaZ5IRGWfX\/MNYAMDz8CHCpoT1f9YswAAAAASUVORK5CYII=",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTRemoteTriggerName" : "Zoom",
+          "BTTTriggerType" : -1,
+          "BTTTriggerClass" : "BTTTriggerTypeBTTRemote",
+          "BTTPredefinedActionType" : 21,
+          "BTTPredefinedActionName" : "Maximize Window",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 2,
+          "BTTIconData" : "iVBORw0KGgoAAAANSUhEUgAAAEAAAAAYCAYAAABKtPtEAAAKQWlDQ1BJQ0MgUHJvZmlsZQAASA2dlndUU9kWh8+9N73QEiIgJfQaegkg0jtIFQRRiUmAUAKGhCZ2RAVGFBEpVmRUwAFHhyJjRRQLg4Ji1wnyEFDGwVFEReXdjGsJ7601896a\/cdZ39nnt9fZZ+9917oAUPyCBMJ0WAGANKFYFO7rwVwSE8vE9wIYEAEOWAHA4WZmBEf4RALU\/L09mZmoSMaz9u4ugGS72yy\/UCZz1v9\/kSI3QyQGAApF1TY8fiYX5QKUU7PFGTL\/BMr0lSkyhjEyFqEJoqwi48SvbPan5iu7yZiXJuShGlnOGbw0noy7UN6aJeGjjAShXJgl4GejfAdlvVRJmgDl9yjT0\/icTAAwFJlfzOcmoWyJMkUUGe6J8gIACJTEObxyDov5OWieAHimZ+SKBIlJYqYR15hp5ejIZvrxs1P5YjErlMNN4Yh4TM\/0tAyOMBeAr2+WRQElWW2ZaJHtrRzt7VnW5mj5v9nfHn5T\/T3IevtV8Sbsz55BjJ5Z32zsrC+9FgD2JFqbHbO+lVUAtG0GQOXhrE\/vIADyBQC03pzzHoZsXpLE4gwnC4vs7GxzAZ9rLivoN\/ufgm\/Kv4Y595nL7vtWO6YXP4EjSRUzZUXlpqemS0TMzAwOl89k\/fcQ\/+PAOWnNycMsnJ\/AF\/GF6FVR6JQJhIlou4U8gViQLmQKhH\/V4X8YNicHGX6daxRodV8AfYU5ULhJB8hvPQBDIwMkbj96An3rWxAxCsi+vGitka9zjzJ6\/uf6Hwtcim7hTEEiU+b2DI9kciWiLBmj34RswQISkAd0oAo0gS4wAixgDRyAM3AD3iAAhIBIEAOWAy5IAmlABLJBPtgACkEx2AF2g2pwANSBetAEToI2cAZcBFfADXALDIBHQAqGwUswAd6BaQiC8BAVokGqkBakD5lC1hAbWgh5Q0FQOBQDxUOJkBCSQPnQJqgYKoOqoUNQPfQjdBq6CF2D+qAH0CA0Bv0BfYQRmALTYQ3YALaA2bA7HAhHwsvgRHgVnAcXwNvhSrgWPg63whfhG\/AALIVfwpMIQMgIA9FGWAgb8URCkFgkAREha5EipAKpRZqQDqQbuY1IkXHkAwaHoWGYGBbGGeOHWYzhYlZh1mJKMNWYY5hWTBfmNmYQM4H5gqVi1bGmWCesP3YJNhGbjS3EVmCPYFuwl7ED2GHsOxwOx8AZ4hxwfrgYXDJuNa4Etw\/XjLuA68MN4SbxeLwq3hTvgg\/Bc\/BifCG+Cn8cfx7fjx\/GvyeQCVoEa4IPIZYgJGwkVBAaCOcI\/YQRwjRRgahPdCKGEHnEXGIpsY7YQbxJHCZOkxRJhiQXUiQpmbSBVElqIl0mPSa9IZPJOmRHchhZQF5PriSfIF8lD5I\/UJQoJhRPShxFQtlOOUq5QHlAeUOlUg2obtRYqpi6nVpPvUR9Sn0vR5Mzl\/OX48mtk6uRa5Xrl3slT5TXl3eXXy6fJ18hf0r+pvy4AlHBQMFTgaOwVqFG4bTCPYVJRZqilWKIYppiiWKD4jXFUSW8koGStxJPqUDpsNIlpSEaQtOledK4tE20Otpl2jAdRzek+9OT6cX0H+i99AllJWVb5SjlHOUa5bPKUgbCMGD4M1IZpYyTjLuMj\/M05rnP48\/bNq9pXv+8KZX5Km4qfJUilWaVAZWPqkxVb9UU1Z2qbapP1DBqJmphatlq+9Uuq43Pp893ns+dXzT\/5PyH6rC6iXq4+mr1w+o96pMamhq+GhkaVRqXNMY1GZpumsma5ZrnNMe0aFoLtQRa5VrntV4wlZnuzFRmJbOLOaGtru2nLdE+pN2rPa1jqLNYZ6NOs84TXZIuWzdBt1y3U3dCT0svWC9fr1HvoT5Rn62fpL9Hv1t\/ysDQINpgi0GbwaihiqG\/YZ5ho+FjI6qRq9Eqo1qjO8Y4Y7ZxivE+41smsImdSZJJjclNU9jU3lRgus+0zwxr5mgmNKs1u8eisNxZWaxG1qA5wzzIfKN5m\/krCz2LWIudFt0WXyztLFMt6ywfWSlZBVhttOqw+sPaxJprXWN9x4Zq42Ozzqbd5rWtqS3fdr\/tfTuaXbDdFrtOu8\/2DvYi+yb7MQc9h3iHvQ732HR2KLuEfdUR6+jhuM7xjOMHJ3snsdNJp9+dWc4pzg3OowsMF\/AX1C0YctFx4bgccpEuZC6MX3hwodRV25XjWuv6zE3Xjed2xG3E3dg92f24+ysPSw+RR4vHlKeT5xrPC16Il69XkVevt5L3Yu9q76c+Oj6JPo0+E752vqt9L\/hh\/QL9dvrd89fw5\/rX+08EOASsCegKpARGBFYHPgsyCRIFdQTDwQHBu4IfL9JfJFzUFgJC\/EN2hTwJNQxdFfpzGC4sNKwm7Hm4VXh+eHcELWJFREPEu0iPyNLIR4uNFksWd0bJR8VF1UdNRXtFl0VLl1gsWbPkRoxajCCmPRYfGxV7JHZyqffS3UuH4+ziCuPuLjNclrPs2nK15anLz66QX8FZcSoeGx8d3xD\/iRPCqeVMrvRfuXflBNeTu4f7kufGK+eN8V34ZfyRBJeEsoTRRJfEXYljSa5JFUnjAk9BteB1sl\/ygeSplJCUoykzqdGpzWmEtPi000IlYYqwK10zPSe9L8M0ozBDuspp1e5VE6JA0ZFMKHNZZruYjv5M9UiMJJslg1kLs2qy3mdHZZ\/KUcwR5vTkmuRuyx3J88n7fjVmNXd1Z752\/ob8wTXuaw6thdauXNu5Tnddwbrh9b7rj20gbUjZ8MtGy41lG99uit7UUaBRsL5gaLPv5sZCuUJR4b0tzlsObMVsFWzt3WazrWrblyJe0fViy+KK4k8l3JLr31l9V\/ndzPaE7b2l9qX7d+B2CHfc3em681iZYlle2dCu4F2t5czyovK3u1fsvlZhW3FgD2mPZI+0MqiyvUqvakfVp+qk6oEaj5rmvep7t+2d2sfb17\/fbX\/TAY0DxQc+HhQcvH\/I91BrrUFtxWHc4azDz+ui6rq\/Z39ff0TtSPGRz0eFR6XHwo911TvU1zeoN5Q2wo2SxrHjccdv\/eD1Q3sTq+lQM6O5+AQ4ITnx4sf4H++eDDzZeYp9qukn\/Z\/2ttBailqh1tzWibakNml7THvf6YDTnR3OHS0\/m\/989Iz2mZqzymdLz5HOFZybOZ93fvJCxoXxi4kXhzpXdD66tOTSna6wrt7LgZevXvG5cqnbvfv8VZerZ645XTt9nX297Yb9jdYeu56WX+x+aem172296XCz\/ZbjrY6+BX3n+l37L972un3ljv+dGwOLBvruLr57\/17cPel93v3RB6kPXj\/Mejj9aP1j7OOiJwpPKp6qP6391fjXZqm99Oyg12DPs4hnj4a4Qy\/\/lfmvT8MFz6nPK0a0RupHrUfPjPmM3Xqx9MXwy4yX0+OFvyn+tveV0auffnf7vWdiycTwa9HrmT9K3qi+OfrW9m3nZOjk03dp76anit6rvj\/2gf2h+2P0x5Hp7E\/4T5WfjT93fAn88ngmbWbm3\/eE8\/syOll+AAADHElEQVRYCeVYsXLTQBC1ZLvCRcqUMEMP9CmcjhIN2C4hNVUqSuLJB4SGGqe0nRkPX4D\/gHyC+AP3Htu8VW41d3uLdDorFJAZzd3e7nu7b3UnKU4Oh0OH\/yaTyRXs90mSPOW1tkbwrnFNl8vluopzNBoNkf8zrmFVXIwP+XPw3s7n8yvGJ1jsZFl20u\/3f8D5kh2PNSLfxWKxmGn84\/H4A2r4pvnaXEMN99vt9ny1Wm0SdPzn3xDepoC2uKgR6f8qnppI2ntaN\/f7\/Ves32m+mDUkumnaaLo7uC5j8v0B8y5N04\/Sl8oFSoy11sQTPzhvZZ46OwZTw3lntDlhXgPgHTgR\/5bhafMagK36vG3N2HqN3y4xmLq6NW1eAwzJaR1ZQ\/+ThvEUHoOpSqNqSrVzARY1uIq9yoccjXdVDKaqBk0TaU\/xUfIKk40ANy5Y4KXpNNTkm+Jtc04XgqdKDQ5GEkbYjibKR9p7hoie\/EMmxfkboDA2jx5x9qSYS3yOziziNb4Cc9jlVyBhUKQVctyUNAkG0tzhZ0BuO5H4hW0fM+92u07niQv8ueTU1jSsxIXaiqaihqIB6PYvQSS7Jdzh5m6387i0f4i0NQ0bntmLdOpgzUUDkKjYDgyB07tr7Gs6ytcZ7oR83pSU0iexZWDERGpizbwDtKLkuY1IW0Dk68xptiCVPokV4cGmpwUNKTQXDdC2H6g9UHA6KxB3Ve6m3HLLqeNTsDI+1Pa0sOaiAcQitx+WZOGhyWSck5zPngwiW\/E5WA0TuOZosbWWDQCRs\/2U10ZgLjcMohwRfPbcqAdL+iRWw4SsKVpKrWUDkKw4E0yILr3F\/IztiPEUnJ8kTuax\/ZrPcDhNtDEB8zOjpQy18\/R4FUHf4XjDNuYDXNdstzHS1uOzp\/GRDx9EG+Q9YT\/mr+liu42RtDJPuQPodzo4cnY8xgj+aR1vSEwdR5WfNNq\/SZYNMKAMAc5RqCJr4gPvDHf4Sx2GYii2Li7Gb7RlNtZpADpDv5Y+owJMsB0bNQfPPR5uGbgvQgkoljCEDcVUxZEWXDPSRhrt2N+2s1j3fDl6ewAAAABJRU5ErkJggg==",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTTriggerType" : 7,
+          "BTTTriggerTypeDescription" : "2 Finger Swipe Up",
+          "BTTTriggerClass" : "BTTTriggerTypeMagicMouse",
+          "BTTPredefinedActionType" : 5,
+          "BTTPredefinedActionName" : "Mission Control",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 1,
+          "BTTIconData" : "",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+          "BTTPredefinedActionType" : 109,
+          "BTTPredefinedActionName" : "Resize window to Middle Third",
+          "BTTAdditionalConfiguration" : "8388608",
+          "BTTEnabled" : 1,
+          "BTTShortcutKeyCode" : 31,
+          "BTTShortcutModifierKeys" : 8388608,
+          "BTTOrder" : 5,
+          "BTTIconData" : "",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTTriggerType" : -1,
+          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+          "BTTPredefinedActionType" : 19,
+          "BTTPredefinedActionName" : "Maximize Window Left",
+          "BTTEnabled" : 1,
+          "BTTShortcutKeyCode" : 41,
+          "BTTShortcutModifierKeys" : 1179648,
+          "BTTOrder" : 1,
+          "BTTIconData" : "",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTTriggerType" : 1004,
+          "BTTTriggerTypeDescription" : "Button 4",
+          "BTTTriggerClass" : "BTTTriggerTypeNormalMouse",
+          "BTTPredefinedActionType" : 78,
+          "BTTPredefinedActionName" : "3F Swipe Right (Page Forward)",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 1,
+          "BTTIconData" : "",
+          "BTTAlternateIconData" : ""
+        }
+      ]
+    },
+    {
+      "BTTAppBundleIdentifier" : "com.skype.skype",
+      "BTTAppName" : "Skype",
+      "BTTAppSpecificSettings" : {
+
+      },
+      "BTTTriggers" : [
+        {
+          "BTTTriggerType" : 102,
+          "BTTTriggerTypeDescription" : "3 Finger Swipe Up",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "58,55,123",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 1,
+          "BTTIconData" : "",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTTriggerType" : 103,
+          "BTTTriggerTypeDescription" : "3 Finger Swipe Down",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "58,55,124",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 0,
+          "BTTIconData" : "",
+          "BTTAlternateIconData" : ""
+        }
+      ]
+    }
+  ],
+  "BTTPresetSnapAreas" : [
+
+  ]
+}
