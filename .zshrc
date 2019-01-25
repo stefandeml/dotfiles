@@ -72,6 +72,13 @@ ZSH_THEME="robbyrussell"
 plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
+source /Users/yubi/Documents/Development/dotfiles/zsh/vi-mode.plugin.zsh
+source /Users/yubi/Documents/Development/dotfiles/zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+# Dircolors
+#eval `dircolors /Users/yubi/Documents/Development/dotfiles/zsh/.dircolors`
+source /Users/yubi/Documents/Development/dotfiles/zsh/prompt.sh
+source /Users/yubi/Documents/Development/dotfiles/zsh/keybindings.sh
+
 
 # User configuration
 
