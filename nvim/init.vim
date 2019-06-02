@@ -31,6 +31,7 @@ noremap gi <C-w>f
 """autocomple
 imap <s-Tab> <C-X><C-F> 
 
+Plug 'lervag/vimtex', {'for': 'tex'}
 Plug 'mbbill/undotree'
 Plug 'tpope/vim-surround'
 Plug 'justinmk/vim-sneak'
@@ -38,6 +39,11 @@ let g:sneak#label = 1
 
 Plug 'vim-airline/vim-airline'
 Plug 'skywind3000/vim-preview'
+
+""" Text
+let g:surround_{char2nr('c')} = "\\\1command\1{\r}"
+autocmd FileType mail,text,markdown,html,tex setlocal wrap
+
 """ Appearance
 
   syntax on
