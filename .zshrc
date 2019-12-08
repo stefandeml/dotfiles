@@ -12,17 +12,14 @@ export PATH="/Applications/Keybase.app/Contents/SharedSupport/bin:$PATH"
 export PATH=$PATH:/usr/local/opt/go/libexec/bin
 export PATH=$PATH:/Users/yubi/Documents/Development/gcloud/google-cloud-sdk/bin
 
-export GOPATH="/Users/yubi/go"
-alias app='docker run -it --rm --name=app -v $PWD:/app -p 3000:3000 golden/meteor-dev'
 alias ds='docker ps'
-alias da='docker attach'
 alias dev='cd /Users/yubi/Documents/Development'
 alias prp='pipenv run python'
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-ZSH_THEME="robbyrussell"
+ZSH_THEME="agnoster-nix"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -63,13 +60,12 @@ ZSH_THEME="robbyrussell"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git)
+plugins=(git vi-mode)
 
 source $ZSH/oh-my-zsh.sh
-source /Users/yubi/Documents/Development/dotfiles/zsh/vi-mode.plugin.zsh
-source /Users/yubi/Documents/Development/dotfiles/zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
-# source /Users/yubi/Documents/Development/dotfiles/zsh/prompt.sh
+export HOMEBREW_PREFIX=/usr/local
+source $HOMEBREW_PREFIX/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+source $HOMEBREW_PREFIX/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source /Users/yubi/Documents/Development/dotfiles/zsh/keybindings.sh
 
 
@@ -93,3 +89,5 @@ alias ls="exa"
 alias ll="exa -l"
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+. $HOME/.nix-profile/etc/profile.d/nix.sh
