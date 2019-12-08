@@ -228,13 +228,13 @@ prompt_status() {
 # - displays yellow on red if profile name contains 'production' or
 #   ends in '-prod'
 # - displays black on green otherwise
-prompt_aws() {
-  [[ -z "$AWS_PROFILE" ]] && return
-  case "$AWS_PROFILE" in
-    *-prod|*production*) prompt_segment red yellow  "AWS: $AWS_PROFILE" ;;
-    *) prompt_segment green black "AWS: $AWS_PROFILE" ;;
-  esac
-}
+# prompt_aws() {
+#   [[ -z "$AWS_PROFILE" ]] && return
+#   case "$AWS_PROFILE" in
+#     *-prod|*production*) prompt_segment red yellow  "AWS: $AWS_PROFILE" ;;
+#     *) prompt_segment green black "AWS: $AWS_PROFILE" ;;
+#   esac
+# }
 
 prompt_nix_shell() {
   if [[ -n "$IN_NIX_SHELL" ]]; then
@@ -255,12 +255,25 @@ prompt_nix_shell() {
   fi
 }
 
+prompt_pyenv() {
+  if [[ -n $PYENV_SHELL ]]; then
+    local version
+    version=${(@)$(pyenv version)[1]}
+    if [[ $version != system ]]; then
+      prompt_segment green black "$version"
+    fi
+  fi
+}
+
+
+
 ## Main prompt
 build_prompt() {
   RETVAL=$?
   prompt_status
+  prompt_pyenv
   prompt_virtualenv
-  prompt_aws
+  # prompt_aws
   prompt_nix_shell
   prompt_context
   prompt_dir
