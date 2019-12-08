@@ -5,7 +5,6 @@
 export ZSH=/Users/yubi/.oh-my-zsh
 export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
-source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 # added by Miniconda3 installer
 export PATH="/Users/yubi/miniconda3/bin:$PATH"
@@ -20,8 +19,6 @@ alias da='docker attach'
 alias dev='cd /Users/yubi/Documents/Development'
 alias prp='pipenv run python'
 
-alias ll='exa'
-# Set name of the the'
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
@@ -62,9 +59,6 @@ ZSH_THEME="robbyrussell"
 # The optional three formats: "mm/dd/yyyy"|"dd.mm.yyyy"|"yyyy-mm-dd"
 # HIST_STAMPS="mm/dd/yyyy"
 
-# Would you like to use another custom folder than $ZSH/custom?
-# ZSH_CUSTOM=/path/to/new-custom-folder
-
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
@@ -74,28 +68,17 @@ plugins=(git)
 source $ZSH/oh-my-zsh.sh
 source /Users/yubi/Documents/Development/dotfiles/zsh/vi-mode.plugin.zsh
 source /Users/yubi/Documents/Development/dotfiles/zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-# Dircolors
-#eval `dircolors /Users/yubi/Documents/Development/dotfiles/zsh/.dircolors`
-source /Users/yubi/Documents/Development/dotfiles/zsh/prompt.sh
+source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+# source /Users/yubi/Documents/Development/dotfiles/zsh/prompt.sh
 source /Users/yubi/Documents/Development/dotfiles/zsh/keybindings.sh
 
 
-# User configuration
-
-# export MANPATH="/usr/local/man:$MANPATH"
-
-# You may need to manually set your language environment
-# export LANG=en_US.UTF-8
-
 # Preferred editor for local and remote sessions
-# if [[ -n $SSH_CONNECTION ]]; then
-#   export EDITOR='vim'
-# else
-#   export EDITOR='mvim'
-# fi
-
-# Compilation flags
-# export ARCHFLAGS="-arch x86_64"
+if [[ -n $SSH_CONNECTION ]]; then
+  export EDITOR='vi'
+else
+  export EDITOR='nvim'
+fi
 
 # ssh
 # export SSH_KEY_PATH="~/.ssh/rsa_id"
@@ -105,11 +88,8 @@ source /Users/yubi/Documents/Development/dotfiles/zsh/keybindings.sh
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
 # For a full list of active aliases, run `alias`.
 #
-# Example aliases
-# alias zshconfig="mate ~/.zshrc"
 
 alias ls="exa"
 alias ll="exa -l"
-# alias ohmyzsh="mate ~/.oh-my-zsh"
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
