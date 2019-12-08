@@ -61,6 +61,7 @@ ZSH_THEME="agnoster-nix"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(git vi-mode)
+export DEFAULT_USER=yubi
 
 source $ZSH/oh-my-zsh.sh
 export HOMEBREW_PREFIX=/usr/local
