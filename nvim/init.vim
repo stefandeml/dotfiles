@@ -4,6 +4,7 @@ let mapleader=","
 nnoremap gc :call NERDComment(0,"toggle")<CR>
 vnoremap gc :call NERDComment(0,"toggle")<CR>
 
+let g:python_host_prog = '$HOME/.pyenv/versions/3.7.5/bin/python'
 nnoremap d "_d
 vnoremap d "_d
 nnoremap D "_D

@@ -1,20 +1,12 @@
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
-
+export PATH=$HOME/.pyenv/versions/3.7.5/bin:$PATH
 # Path to your oh-my-zsh installation.
 export ZSH=/Users/yubi/.oh-my-zsh
 export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
 
-# added by Miniconda3 installer
-export PATH="/Users/yubi/miniconda3/bin:$PATH"
-export PATH="/Applications/Keybase.app/Contents/SharedSupport/bin:$PATH"
-export PATH=$PATH:/usr/local/opt/go/libexec/bin
-export PATH=$PATH:/Users/yubi/Documents/Development/gcloud/google-cloud-sdk/bin
 
-alias ds='docker ps'
-alias dev='cd /Users/yubi/Documents/Development'
-alias prp='pipenv run python'
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
@@ -60,14 +52,14 @@ ZSH_THEME="agnoster-nix"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git vi-mode)
+plugins=(git vi-mode fzf)
 export DEFAULT_USER=yubi
 
 source $ZSH/oh-my-zsh.sh
 export HOMEBREW_PREFIX=/usr/local
 source $HOMEBREW_PREFIX/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 source $HOMEBREW_PREFIX/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-source /Users/yubi/Documents/Development/dotfiles/zsh/keybindings.sh
+source $HOME/dev/dotfiles/zsh/keybindings.sh
 
 
 # Preferred editor for local and remote sessions
@@ -92,3 +84,10 @@ alias ll="exa -l"
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 . $HOME/.nix-profile/etc/profile.d/nix.sh
+
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/Users/yubi/dev/local/gcloud/path.zsh.inc' ]; then . '/Users/yubi/dev/local/gcloud/path.zsh.inc'; fi
+
+# The next line enables shell command completion for gcloud.
+if [ -f '/Users/yubi/dev/local/gcloud/completion.zsh.inc' ]; then . '/Users/yubi/dev/local/gcloud/completion.zsh.inc'; fi
+
