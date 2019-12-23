@@ -1,0 +1,111 @@
+{
+    "window.zoomLevel": 0,
+    "editor.minimap.enabled": false,
+    "git.autofetch": true,
+    "breadcrumbs.enabled": true,
+    "todohighlight.isEnable": true,
+    "todohighlight.include": [
+        "**/*.js",
+        "**/*.jsx",
+        "**/*.ts",
+        "**/*.tsx",
+        "**/*.html",
+        "**/*.php",
+        "**/*.css",
+        "**/*.scss",
+        "**/*.rs",
+        "**/*.md"
+    ],
+    "vim.insertModeKeyBindings": [
+        {
+            "before": ["j", "j"],
+            "after": ["<Esc>"]
+        }
+    ],
+    "docker.attachShellCommand.linuxContainer": "/bin/bash",
+    "workbench.activityBar.visible": true,
+    "diffEditor.renderSideBySide": false,
+    "rust.clippy_preference": "on",
+    // "rust.target": "x86_64-fortanix-unknown-sgx",
+    "vim.leader": ",",
+    "rust-client.channel": "nightly",
+    // "rust.no_default_features": true,
+    "vim.sneakUseIgnorecaseAndSmartcase": true,
+    "workbench.colorCustomizations": {
+        "statusBar.background": "#005f5f",
+        "statusBar.noFolderBackground": "#005f5f",
+        "statusBar.debuggingBackground": "#005f5f"
+    },
+    "files.associations": {
+        "*.tcc": "cpp",
+        "*.code": "go"
+    },
+    "rust-client.revealOutputChannelOn": "info",
+    "explorer.confirmDragAndDrop": false,
+    "vim.easymotion": true,
+    "editor.wordWrapColumn": 100,
+    "workbench.editor.showTabs": true,
+    "editor.renderWhitespace": "all",
+    "editor.renderControlCharacters": true,
+    "gitlens.hovers.currentLine.over": "line",
+    "gitlens.mode.active": "zen",
+    "python.dataScience.sendSelectionToInteractiveWindow": true,
+    "showMusicMetrics": false,
+    "showGitMetrics": false,
+    "showWeeklyRanking": false,
+    "editor.multiCursorModifier": "alt",
+    "editor.lineNumbers": "relative",
+    "terminal.integrated.shell.linux": "/bin/zsh",
+    "latex-workshop.view.pdf.viewer": "tab",
+    "terminal.integrated.rendererType": "canvas",
+    "rust.unstable_features": true,
+    "cSpell.enabledLanguageIds": [
+        "asciidoc",
+        "c",
+        "cpp",
+        "csharp",
+        "css",
+        "git-commit",
+        "go",
+        "handlebars",
+        "haskell",
+        "html",
+        "jade",
+        "java",
+        "javascript",
+        "javascriptreact",
+        "json",
+        "jsonc",
+        "latex",
+        "less",
+        "markdown",
+        "php",
+        "plaintext",
+        "pug",
+        "python",
+        "restructuredtext",
+        "rust",
+        "scala",
+        "scss",
+        "text",
+        "toml",
+        "typescript",
+        "typescriptreact",
+        "yaml",
+        "yml"
+    ],
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "terminal.integrated.fontFamily": "source code pro",
+    // Set the default
+// "editor.formatOnSave": false,
+// Enable per-language
+// "[javascript]": {
+//     "editor.formatOnSave": true
+// },
+// "[typescript]": {
+//     "editor.formatOnSave": true
+// }
+}

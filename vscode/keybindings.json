@@ -1,0 +1,124 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+    // {
+    //     "key": "shift+cmd+x",
+    //     "command": "workbench.action.terminal.toggleTerminal"
+    // },
+    {
+        "key": "ctrl+shift+[Equal]",
+        "command": "-workbench.action.terminal.toggleTerminal"
+    },
+    {
+        "key": "shift+cmd+a",
+        "command": "workbench.action.quickOpenNavigatePreviousInFilePicker",
+        "when": "inFilesPicker && inQuickOpen"
+    },
+    {
+        "key": "shift+cmd+p",
+        "command": "-workbench.action.quickOpenNavigatePreviousInFilePicker",
+        "when": "inFilesPicker && inQuickOpen"
+    },
+    {
+        "key": "shift+cmd+p",
+        "command": "workbench.action.showCommands"
+    },
+    {
+        "key": "shift+cmd+p"
+        "command": "-workbench.action.showCommands"
+    },
+    {
+        "key": "cmd+enter",
+        "command": "editor.debug.action.selectionToRepl"
+    },
+    {
+        "key": "f1",
+        "command": "-workbench.action.showCommands"
+    },
+    {
+        "key": "ctrl+shift+h",
+        "command": "extension.dash.specific",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+h",
+        "command": "-extension.dash.specific",
+        "when": "editorTextFocus"
+    },
+// Toggle between terminal and editor focus
+{ "key": "shift+cmd+x", "command": "workbench.action.terminal.focus"},
+{
+    "key": "shift+cmd+x",
+    "command": "workbench.action.focusActiveEditorGroup",
+    "when": "terminalFocus"
+},
+{
+    "key": "cmd+d",
+    "command": "editor.action.goToDeclaration",
+    "when": "editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor"
+},
+{
+    "key": "f12",
+    "command": "-editor.action.goToDeclaration",
+    "when": "editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor"
+},
+{
+    "key": "cmd+d",
+    "command": "editor.action.previewDeclaration",
+    "when": "editorHasDefinitionProvider && editorTextFocus && !inReferenceSearchEditor && !isInEmbeddedEditor"
+},
+{
+    "key": "alt+f12",
+    "command": "-editor.action.previewDeclaration",
+    "when": "editorHasDefinitionProvider && editorTextFocus && !inReferenceSearchEditor && !isInEmbeddedEditor"
+},
+{
+    "key": "alt+d",
+    "command": "editor.action.goToImplementation",
+    "when": "editorHasImplementationProvider && editorTextFocus && !isInEmbeddedEditor"
+},
+{
+    "key": "cmd+f12",
+    "command": "-editor.action.goToImplementation",
+    "when": "editorHasImplementationProvider && editorTextFocus && !isInEmbeddedEditor"
+},
+{
+    "key": "shift+cmd+d",
+    "command": "editor.action.referenceSearch.trigger",
+    "when": "editorHasReferenceProvider && editorTextFocus && !inReferenceSearchEditor && !isInEmbeddedEditor"
+},
+{
+    "key": "shift+f12",
+    "command": "-editor.action.referenceSearch.trigger",
+    "when": "editorHasReferenceProvider && editorTextFocus && !inReferenceSearchEditor && !isInEmbeddedEditor"
+},
+{
+    "key": "cmd+k cmd+d",
+    "command": "editor.action.formatDocument",
+    "when": "editorTextFocus && !editorReadonly"
+},
+{
+    "key": "shift+alt+f",
+    "command": "-editor.action.formatDocument",
+    "when": "editorTextFocus && !editorReadonly"
+},
+{ "key": "ctrl+enter",
+    "command": "jupyter.execCurrentCell",
+    "when": "editorTextFocus"
+},
+{
+    "key": "shift+cmd+enter",
+    "command": "python.datascience.runcurrentcell"
+},
+{
+    "key": "shift+cmd+8",
+    "command": "extension.displayCoverage"
+},
+{
+    "key": "shift+cmd+7",
+    "command": "-extension.displayCoverage"
+},
+{
+    "key": "shift+cmd+m",
+    "command": "workbench.action.toggleMultiCursorModifier"
+}
+],
