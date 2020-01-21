@@ -91,3 +91,9 @@ if [ -f '/Users/yubi/dev/local/gcloud/path.zsh.inc' ]; then . '/Users/yubi/dev/l
 # The next line enables shell command completion for gcloud.
 if [ -f '/Users/yubi/dev/local/gcloud/completion.zsh.inc' ]; then . '/Users/yubi/dev/local/gcloud/completion.zsh.inc'; fi
 
+
+export WASMTIME_HOME="$HOME/.wasmtime"
+
+export PATH="$WASMTIME_HOME/bin:$PATH"
+ export NVM_DIR="$HOME/.nvm"
+[ -s "/usr/local/opt/nvm/nvm.sh" ] && . "/usr/local/opt/nvm/nvm.sh"  # This loads nvm

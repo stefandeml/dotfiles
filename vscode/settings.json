@@ -99,6 +99,7 @@
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "terminal.integrated.fontFamily": "source code pro",
+    "C_Cpp.updateChannel": "Insiders",
     // Set the default
 // "editor.formatOnSave": false,
 // Enable per-language
