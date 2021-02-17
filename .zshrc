@@ -1,12 +1,10 @@
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
-export PATH=$HOME/.pyenv/versions/3.7.5/bin:$PATH
+export PATH=$HOME/.pyenv/versions/3.7.5rc1/bin:$PATH
 # Path to your oh-my-zsh installation.
 export ZSH=/Users/yubi/.oh-my-zsh
 export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
-
-
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
@@ -83,7 +81,7 @@ alias ll="exa -l"
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
-. $HOME/.nix-profile/etc/profile.d/nix.sh
+#. $HOME/.nix-profile/etc/profile.d/nix.sh
 
 # The next line updates PATH for the Google Cloud SDK.
 if [ -f '/Users/yubi/dev/local/gcloud/path.zsh.inc' ]; then . '/Users/yubi/dev/local/gcloud/path.zsh.inc'; fi
@@ -97,3 +95,6 @@ export WASMTIME_HOME="$HOME/.wasmtime"
 export PATH="$WASMTIME_HOME/bin:$PATH"
  export NVM_DIR="$HOME/.nvm"
 [ -s "/usr/local/opt/nvm/nvm.sh" ] && . "/usr/local/opt/nvm/nvm.sh"  # This loads nvm
+export TERM=xterm-256color
+eval "$(zoxide init zsh)"
+if [ -e /Users/yubi/.nix-profile/etc/profile.d/nix.sh ]; then . /Users/yubi/.nix-profile/etc/profile.d/nix.sh; fi # added by Nix installer

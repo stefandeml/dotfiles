@@ -4,7 +4,7 @@ let mapleader=","
 nnoremap gc :call NERDComment(0,"toggle")<CR>
 vnoremap gc :call NERDComment(0,"toggle")<CR>
 
-let g:python_host_prog = '$HOME/.pyenv/versions/3.7.5/bin/python'
+let g:python3_host_prog = '$HOME/.pyenv/versions/3.7.5rc1/bin/python'
 nnoremap d "_d
 vnoremap d "_d
 nnoremap D "_D
@@ -75,8 +75,8 @@ Plug 'gasparch/tagbar'
 Plug 'scrooloose/nerdtree'
 Plug 'jistr/vim-nerdtree-tabs'                                       " NerdTree independent of tabs
 Plug 'Xuyuanp/nerdtree-git-plugin'                                   " Git for NerdTree
-Plug 'matze/vim-move'                                                " Move lines up and down
-let g:move_key_modifier = 'C-S'
+"Plug 'matze/vim-move'                                                " Move lines up and down
+"let g:move_key_modifier = 'A'
 Plug 'zhamlin/tiler.vim'                                             " Window manager
 
 Plug 'tomasiser/vim-code-dark'
@@ -140,8 +140,6 @@ au CursorHold * checktime
 " Required for operations modifying multiple buffers like rename.
 set hidden
 set number
-
-set clipboard=unnamed
 
 let g:rustfmt_autosave = 1
 
